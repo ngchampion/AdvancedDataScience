@@ -23,22 +23,22 @@ According to Microsoft Excel support, Relative and Absolute References refer to 
 
 <p>
 	The way to tell excel how to treat these three reference types differently is the use of the dollar sign to denote the use of absolute referencing. The dollar sign would precede any cell reference component that would be absolute or fixed.  
-	</p>
-	<p>
+</p>
+<p>
 	Relative Referencing		=B1+1
-	</p>
-	<p>
+</p>
+<p>
 	Absolute Referencing		=$B$1+1
-	</p>
-	<p>
+</p>
+<p>
 	Mixed Referencing		=B$1+1
-	</p>
+</p>
 	
 ## **Examples with data.**
 
 <p>
 	
-	</p>
+</p>
 	
 ## **References:**
 
