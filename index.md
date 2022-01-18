@@ -2,7 +2,7 @@
 
 ## **What are they?**
 
-<p text-indent: 5px; style="margin-left:10%; margin-right:10%;">
+<p>
 According to Microsoft Excel support, Relative and Absolute References refer to cell referencing and how it refers to the cells around it. Relative reference refers to another cell based on its location relative to the cell that’s referencing it. For example, if the A1 cell referenced data in the B1 cell, for ex: =B1+1, the program would be referring to a cell one column to the right. If the formula in cell A1 were then copied to cell A10 the new formula would be =B10+1 because B10 is one cell to the right of the cell doing the referring.
   </p>
   <p>
@@ -13,6 +13,8 @@ According to Microsoft Excel support, Relative and Absolute References refer to 
 
 <p>
 	A user would find these referencing types useful as they provide the ability to quickly reproduce the same calculation multiple times with different variables. For example, if a teacher had a grade sheet for a class of 10 that included 10 assignments for each student and the teacher wanted the final grade for each student, they could write a formula for the first student using the relative reference of that first students 10 assignments and determine that student’s grade. The teacher could then reuse that formula by changing the relative references and it would be able to calculate all the other students’ final grades with very little extra time. 
+	</p>
+	<p>
 	If this same teacher decided to add a curve to the final grade for all the students that teacher could use absolute referencing to refer to a single cell that holds the curve value and use that in each final grade calculation for each student.
 	</p>
 	
@@ -21,8 +23,14 @@ According to Microsoft Excel support, Relative and Absolute References refer to 
 
 <p>
 	The way to tell excel how to treat these three reference types differently is the use of the dollar sign to denote the use of absolute referencing. The dollar sign would precede any cell reference component that would be absolute or fixed.  
+	</p>
+	<p>
 	Relative Referencing		=B1+1
+	</p>
+	<p>
 	Absolute Referencing		=$B$1+1
+	</p>
+	<p>
 	Mixed Referencing		=B$1+1
 	</p>
 	
