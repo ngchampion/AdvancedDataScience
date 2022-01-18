@@ -37,7 +37,7 @@ According to Microsoft Excel support, Relative and Absolute References refer to 
 ## **Examples with data.**
 
 <p>
-	
+	[Excel Reference Examples](https://github.com/ngchampion/AdvancedDataScience/blob/gh-pages/Reference%20Examples.xlsx)
 </p>
 	
 ## **References:**
