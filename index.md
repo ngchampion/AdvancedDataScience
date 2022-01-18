@@ -1,4 +1,4 @@
-
+#Relative and Absolute References
 
 ## **What are they?**
 
@@ -13,10 +13,10 @@ According to Microsoft Excel support, Relative and Absolute References refer to 
 
 <p>
 	A user would find these referencing types useful as they provide the ability to quickly reproduce the same calculation multiple times with different variables. For example, if a teacher had a grade sheet for a class of 10 that included 10 assignments for each student and the teacher wanted the final grade for each student, they could write a formula for the first student using the relative reference of that first students 10 assignments and determine that student’s grade. The teacher could then reuse that formula by changing the relative references and it would be able to calculate all the other students’ final grades with very little extra time. 
-	</p>
-	<p>
+</p>
+<p>
 	If this same teacher decided to add a curve to the final grade for all the students that teacher could use absolute referencing to refer to a single cell that holds the curve value and use that in each final grade calculation for each student.
-	</p>
+</p>
 	
 	
 ## **How are they used?**
@@ -34,7 +34,7 @@ According to Microsoft Excel support, Relative and Absolute References refer to 
 	Mixed Referencing		=B$1+1
 	</p>
 	
-## **Examples with data. **
+## **Examples with data.**
 
 <p>
 	
