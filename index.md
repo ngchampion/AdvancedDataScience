@@ -41,7 +41,7 @@ According to Microsoft Excel support, Relative and Absolute References refer to 
 	[Excel Reference Examples] (/Reference%20Examples.xlsx)
 	[Excel Reference Examples] (/Reference_Examples.xlsx)
 	[Excel Reference Examples] (/AdvancedDataScience/Reference%20Examples.xlsx)
-	[Excel Reference Examples] (/AdvancedDataScience/Reference_Examples.xlsx)
+	[Excel Reference Examples] (https://ngchampion.github.io/AdvancedDataScience//Reference_Examples.xlsx)
 </p>
 	
 ## **References:**
