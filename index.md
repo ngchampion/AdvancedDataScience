@@ -2,10 +2,10 @@
 
 ## **What are they?**
 
-<p>
+
   According to Microsoft Excel support, Relative and Absolute References refer to cell referencing and how it refers to the cells around it. Relative reference refers to another cell based on its location relative to the cell that’s referencing it. For example, if the A1 cell referenced data in the B1 cell, for ex: =B1+1, the program would be referring to a cell one column to the right. If the formula in cell A1 were then copied to cell A10 the new formula would be =B10+1 because B10 is one cell to the right of the cell doing the referring. 
 	Absolute referencing unlike relative does not consider where the cell doing the referencing is. To use the above example if the formula in cell A1 was =B1+1 and it was moved into cell A10 it would still be =B1+1. The final type of referencing is a mixed reference that as you would expect is a combination of the two. This reference makes either the row or column absolute and the other relative. 
-  </p>
+ 
   
 ## **Why are they used?**
 
