@@ -1,5 +1,5 @@
-
-## Relative and Absolute References
+By: Nathaniel Champion
+# Relative and Absolute References
 
 ## **What are they?**
 
