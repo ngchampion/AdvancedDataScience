@@ -1,3 +1,4 @@
+Title
 # Relative and Absolute References
 
 ## **What are they?**
@@ -27,7 +28,7 @@ According to Microsoft Excel support, Relative and Absolute References refer to 
 <p>
 	Relative Referencing		=B1+1
 </p>
-![Relative_Reference](/RelativeScreenShoot.PNG)
+![Relative_Reference](/RelativeScreenShot.PNG)
 <p>
 	Absolute Referencing		=$B$1+1
 </p>
