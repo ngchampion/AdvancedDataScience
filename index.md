@@ -26,15 +26,15 @@ According to Microsoft Excel support, Relative and Absolute References refer to 
 	The way to tell excel how to treat these three reference types differently is the use of the dollar sign to denote the use of absolute referencing. The dollar sign would precede any cell reference component that would be absolute or fixed. There is also a function shortcut that will apply these various referencing methods by highlighting the cell in question and pressing the F4 key. 
 </p>
 <p>
-	Relative Referencing		=B1+1
+	Relative Referencing		
 </p>
 ![Relative_Reference](/RelativeScreenShot.PNG)
 <p>
-	Absolute Referencing		=$B$1+1
+	Absolute Referencing		
 </p>
 ![Absolute_Reference](/AbsoluteScreenShot.PNG)
 <p>
-	Mixed Referencing		=B$1+1
+	Mixed Referencing		
 </p>
 ![Mixed_Reference](/MixedScreenShot.PNG)
 	
