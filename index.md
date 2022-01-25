@@ -40,11 +40,18 @@ The way to tell excel how to treat these three different reference types is the 
 	
 ## **Examples with data.**
 
+### ** Example #1 ** ###
+
 ![SS_1](/SS_1.PNG)
 ![SS_1](/ss_1.1.PNG)
 ![SS_1](/ss_2.PNG)
 ![SS_1](/ss_2.1.PNG)
 ![SS_1](/ss_3.PNG)
+![SS_1](/ss_4.PNG)
+
+### ** Example #2 ** ###
+
+![SS_2](/ss_5.PNG)
 
 
 
