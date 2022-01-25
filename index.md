@@ -38,7 +38,15 @@ The way to tell excel how to treat these three different reference types is the 
 </p>
 ![Mixed_Reference](/MixedScreenShot.PNG)
 	
-## **Examples with data.**   
+## **Examples with data.**
+
+![SS_1](/SS_1.png)
+![SS_1](/ss_1.1.png)
+![SS_1](/ss_2.png)
+![SS_1](/ss_2.1.png)
+![SS_1](/ss_3.png)
+
+
 
 [Excel Reference Examples](./Reference_Examples.xlsx)
 	
