@@ -51,7 +51,7 @@ The way to tell excel how to treat these three different reference types is the 
 
 ### ** Example #2 ** ###
 
-![SS_2](/ss_5.PNG)
+![SS_2](/SS_5.PNG)
 
 
 
