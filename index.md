@@ -40,11 +40,11 @@ The way to tell excel how to treat these three different reference types is the 
 	
 ## **Examples with data.**
 
-![SS_1](/SS_1.png)
-![SS_1](/ss_1.1.png)
-![SS_1](/ss_2.png)
-![SS_1](/ss_2.1.png)
-![SS_1](/ss_3.png)
+![SS_1](/SS_1.PNG)
+![SS_1](/ss_1.1.PNG)
+![SS_1](/ss_2.PNG)
+![SS_1](/ss_2.1.PNG)
+![SS_1](/ss_3.PNG)
 
 
 
