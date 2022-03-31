@@ -1,0 +1,44 @@
+NB_Correct_Auto    <- c(656, 651, 704, 663, 654, 644, 656, 704, 676, 698)
+NB_Incorrect_Auto  <- c(89, 103, 101, 87, 99, 108, 122, 91, 103, 96)
+NB_Correct_Man     <- c(119, 131, 130, 116, 119, 139, 94, 113, 109, 122)
+NB_Incorrect_Man   <- c(121, 135, 139, 110, 130, 139, 127, 115, 128, 122)
+
+GLM_Correct_Auto   <- c(738, 736, 789, 742, 739, 736, 722, 788, 742, 790)
+GLM_Incorrect_Auto <- c(169, 188, 190, 166, 191, 194, 212, 159, 190, 176)
+GLM_Correct_Man    <- c(37, 46, 45, 37, 34, 47, 28, 29, 43, 30)
+GLM_Incorrect_Man  <- c(41, 50, 50, 31, 38, 53, 37, 47, 41, 42)
+
+NB_Correct_Auto_AVG    <- mean(NB_Correct_Auto)
+NB_Incorrect_Auto_AVG  <- mean(NB_Incorrect_Auto)
+NB_Correct_Man_AVG     <- mean(NB_Correct_Man)
+NB_Incorrect_Man_AVG   <- mean(NB_Incorrect_Man)
+
+GLM_Correct_Auto_AVG    <- mean(GLM_Correct_Auto)
+GLM_Incorrect_Auto_AVG  <- mean(GLM_Incorrect_Auto)
+GLM_Correct_Man_AVG     <- mean(GLM_Correct_Man)
+GLM_Incorrect_Man_AVG   <- mean(GLM_Incorrect_Man)
+
+NB_Incorrect_Man_AVG
+
+NB_df <- data.frame(Name = c("Auto Correct", "Auto Incorrect",
+                             "Manual Correct", "Manual Incorrect"),
+                    Value = c(NB_Correct_Auto_AVG, NB_Incorrect_Auto_AVG,
+                              NB_Correct_Man_AVG, NB_Incorrect_Man_AVG))
+GLM_df <- data.frame(Name = c("Auto Correct", "Auto Incorrect",
+                             "Manual Correct", "Manual Incorrect"),
+                    Value = c(GLM_Correct_Auto_AVG, GLM_Incorrect_Auto_AVG,
+                              GLM_Correct_Man_AVG, GLM_Incorrect_Man_AVG))
+
+library(ggplot2)
+
+NB <- ggplot(data = NB_df, aes(x = Name, y = Value, fill= Name)) + 
+  geom_bar(stat="identity", color="blue")
+NB <- NB + theme(axis.text.x=element_text(angle=45, hjust=0.9))
+
+print(NB + ggtitle("Average Naive Bayes Predictions of Manual and Automatic Cars"))
+
+LM <- ggplot(data = GLM_df, aes(x = Name, y = Value, fill= Name)) + 
+  geom_bar(stat="identity", color="blue")
+LM <- LM + theme(axis.text.x=element_text(angle=45, hjust=0.9))
+
+print(LM + ggtitle("Average Linear Model Predictions of Manual and Automatic Cars"))
